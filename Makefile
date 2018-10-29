@@ -13,7 +13,7 @@ SRC =   ./widget/Window.vala \
 	./project_path.c \
 	./main.vala
 
-BIN = main
+BIN = vcalc
 
 all:
 	$(VALAC) $(PKG) $(SRC) $(OPTIONS)  -o $(BIN)

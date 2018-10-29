@@ -1,6 +1,6 @@
 using Gtk;
 
-public class Application : Object {
+public class Application : GLib.Object {
 	public static void main(string[] args) {
 		Gtk.init(ref args);
 
